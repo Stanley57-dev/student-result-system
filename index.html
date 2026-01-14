@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Student Result System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2> Student Result Management System</h2>
+
+    <input type="text" id="name" placeholder="Student Name">
+    <input type="text" id="matric" placeholder="Matric Number">
+
+    <div id="subjects-container">
+        <div class="subject-row">
+            <input type="text" class="subject-name" placeholder="Subject Name">
+            <input type="number" class="subject-score" placeholder="Score">
+        </div>
+    </div>
+
+    <button onclick="addSubject()">Add Subject</button>
+    <button onclick="generateResult()">Generate Result</button>
+    <button class="clear" onclick="clearForm()">Clear</button>
+
+    <div id="result"></div>
+
+    <h3>Result History</h3>
+    <ul id="history"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

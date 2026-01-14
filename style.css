@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f3;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+input {
+    width: calc(50% - 8px);
+    padding: 8px;
+    margin: 6px 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button.clear {
+    background: #dc3545;
+    color: white;
+}
+
+button:not(.clear) {
+    background: #007bff;
+    color: white;
+}
+
+#result {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.pass {
+    color: green;
+    font-weight: bold;
+}
+
+.fail {
+    color: red;
+    font-weight: bold;
+}
+
+#history {
+    list-style: none;
+    padding: 0;
+}
+
+#history li {
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.subject-row {
+    display: flex;
+}
